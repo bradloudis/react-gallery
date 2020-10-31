@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 class GalleryItem extends Component {
   handleLikeClick = (event) => {
     console.log('like btn click!');
+    this.props.likebtnCallback();
   };
 
   render() {

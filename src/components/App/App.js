@@ -31,6 +31,10 @@ class App extends Component {
       });
   }
 
+  updateLikes = () => {
+    console.log('add 1 like!');
+  };
+
   render() {
     return (
       <div className="App">
@@ -39,7 +43,10 @@ class App extends Component {
         </header>
         <br />
         <p>Gallery goes here</p>
-        <GalleryList photos={this.state.galleryList} />
+        <GalleryList
+          likebtnCallback={this.updateLikes}
+          photos={this.state.galleryList}
+        />
       </div>
     );
   }
