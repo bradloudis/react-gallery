@@ -13,6 +13,7 @@ class App extends Component {
     this.getPhotos();
   }
 
+  // axios GET call to server to get the complete list of items
   getPhotos() {
     axios({
       method: 'GET',
@@ -31,6 +32,7 @@ class App extends Component {
       });
   }
 
+  // axios PUT call to server to update the 'like count'
   updateLikes = (photoId) => {
     console.log('add 1 like!');
     axios({
@@ -38,6 +40,7 @@ class App extends Component {
       url: `/gallery/like/${photoId}`,
     })
       .then((response) => {
+        // call getPhotos() to update DOM with new like count
         this.getPhotos();
       })
       .catch(function (err) {
