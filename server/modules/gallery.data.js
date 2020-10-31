@@ -24,7 +24,7 @@ const galleryItems = [
     likes: 0,
   },
   {
-    id: 1,
+    id: 5,
     path: 'images/turntable.jpg',
     description: 'Photo of a record on a turntable.',
     likes: 0,
