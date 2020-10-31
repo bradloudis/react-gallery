@@ -31,8 +31,19 @@ class App extends Component {
       });
   }
 
-  updateLikes = () => {
+  updateLikes = (photoId) => {
     console.log('add 1 like!');
+    axios({
+      method: 'PUT',
+      url: `/gallery/like/${photoId}`,
+    })
+      .then((response) => {
+        this.getPhotos();
+      })
+      .catch(function (err) {
+        console.log(err);
+        alert('Something went wrong liking this picture!');
+      });
   };
 
   render() {
