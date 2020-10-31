@@ -22,7 +22,6 @@ class App extends Component {
         this.setState({
           galleryList: response.data,
         });
-        console.log(response);
       })
       .catch((err) => {
         console.log(err);
