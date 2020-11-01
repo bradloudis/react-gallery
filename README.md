@@ -4,9 +4,13 @@
 
 _Weekend Project_
 
+An interactive gallery of photos!
+
 ## Screen Shot
 
-<!-- picture plz! -->
+<img width="1617" alt="screenshot-all-pics" src="https://user-images.githubusercontent.com/69406122/97819008-80a04e80-1c6b-11eb-8a39-6abf4df87732.png">
+
+<img width="1548" alt="screenshot-one-description" src="https://user-images.githubusercontent.com/69406122/97819016-931a8800-1c6b-11eb-890a-3478ca6eb8e7.png">
 
 ## Installation
 
@@ -17,16 +21,16 @@ _Weekend Project_
 
 ## Usage
 
-User user user user user user user user app.
+A user can click on a picture which will change the picture to its description. Click on the description to toggle back to the picture. The user can also click the like button to add likes to the picture!
 
 ## Built With
 
--HTML
--CSS
--JavaScript
--NODE
--React
--Axios
+- HTML
+- CSS
+- JavaScript
+- NODE
+- React
+- Axios
 
 ## Acknowledgement
 

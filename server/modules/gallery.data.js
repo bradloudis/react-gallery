@@ -1,32 +1,32 @@
 const galleryItems = [
   {
     id: 1,
-    path: 'images/vote.jpg',
-    description: 'VOTE!',
+    path: 'images/lemons.jpg',
+    description: 'Just some lemons and a pepper.',
     likes: 0,
   },
   {
     id: 2,
-    path: 'images/cuppacoffee.jpg',
+    path: 'images/coffee.jpg',
     description: 'Photo of a cup of coffee.',
     likes: 0,
   },
   {
     id: 3,
-    path: 'images/pinball.jpg',
-    description: 'Photo of some pinball machines.',
+    path: 'images/moon.jpg',
+    description: 'Did you know the moon is made of cheese?',
     likes: 0,
   },
   {
     id: 4,
-    path: 'images/sunflowers.jpg',
-    description: 'Photo of a field of sunflowers.',
+    path: 'images/snowflakes.jpg',
+    description: 'A closeup shot of snowflakes.',
     likes: 0,
   },
   {
     id: 5,
-    path: 'images/turntable.jpg',
-    description: 'Photo of a record on a turntable.',
+    path: 'images/fall.jpg',
+    description: 'The many colors of Fall.',
     likes: 0,
   },
 ];
