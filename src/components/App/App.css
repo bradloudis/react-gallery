@@ -26,6 +26,7 @@
   }
 }
 
-img {
+/* img class is now handled in GalleryItem.css! */
+/* img {
   height: 100px;
-}
+} */

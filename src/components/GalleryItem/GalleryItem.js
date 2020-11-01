@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import './GalleryItem.css';
 
 class GalleryItem extends Component {
   state = {
@@ -33,7 +34,7 @@ class GalleryItem extends Component {
     }
 
     return (
-      <div key={this.props.item.id}>
+      <div key={this.props.item.id} className="gallery-container">
         <div onClick={this.handlePicClick}>{galleryItem}</div>
         <button onClick={this.handleLikeClick}>LIKE</button>
         <span> {this.props.item.likes} likes</span>

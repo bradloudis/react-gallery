@@ -1,0 +1,9 @@
+.gallery-container {
+  display: inline-block;
+  margin: 20px;
+}
+
+img {
+  width: 150px;
+  /* border: solid black 5px; */
+}
