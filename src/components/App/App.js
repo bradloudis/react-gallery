@@ -10,6 +10,7 @@ class App extends Component {
   };
 
   componentDidMount() {
+    // getting complete list of items from server on page load
     this.getPhotos();
   }
 
@@ -20,6 +21,7 @@ class App extends Component {
       url: '/gallery',
     })
       .then((response) => {
+        // taking response from server and adding it to the galleryList on state
         this.setState({
           galleryList: response.data,
         });
@@ -57,6 +59,8 @@ class App extends Component {
         </header>
         <br />
         <h3>My Gallery</h3>
+        {/* likebtnCallback sends axios PUT route down to GalleryList on props*/}
+        {/* photos sends the array from state down to GalleryList on props */}
         <GalleryList
           likebtnCallback={this.updateLikes}
           photos={this.state.galleryList}
