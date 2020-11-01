@@ -56,7 +56,7 @@ class App extends Component {
           <h1 className="App-title">Gallery of my life</h1>
         </header>
         <br />
-        <p>Gallery goes here</p>
+        <h3>My Gallery</h3>
         <GalleryList
           likebtnCallback={this.updateLikes}
           photos={this.state.galleryList}
