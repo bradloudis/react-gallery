@@ -30,7 +30,9 @@ class GalleryItem extends Component {
     );
 
     if (this.state.isClicked) {
-      galleryItem = <p>{this.props.item.description}</p>;
+      galleryItem = (
+        <p className="description">{this.props.item.description}</p>
+      );
     }
 
     return (

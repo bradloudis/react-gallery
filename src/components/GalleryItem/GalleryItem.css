@@ -4,6 +4,20 @@
 }
 
 img {
-  width: 150px;
-  /* border: solid black 5px; */
+  width: 200px;
+}
+
+.description {
+  line-height: 150px;
+  height: 150px;
+  border: solid black 3px;
+  text-align: center;
+  padding: 10px;
+}
+
+/* If the text has multiple lines, add the following: */
+.description p {
+  line-height: 1.5;
+  display: inline-block;
+  vertical-align: middle;
 }
