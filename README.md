@@ -34,7 +34,7 @@ A user can click on a picture which will change the picture to its description. 
 
 ## Acknowledgement
 
-Thank you Castor Cohort!
+Thank you Castor Cohort family - specifically Sarah, Lara, and Joey!
 
 <!-- Your project description goes here. What problem did you solve? How did you solve it? -->
 
