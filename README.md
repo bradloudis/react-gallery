@@ -4,7 +4,7 @@
 
 _Weekend Project_
 
-An interactive gallery of photos!
+An interactive gallery of photos! Clicking on a photo will toggle the photo with its description. Clicking on the description will toggle back to the photo. Clicking the `LIKE` button will add to the number of likes.
 
 ## Screen Shot
 
